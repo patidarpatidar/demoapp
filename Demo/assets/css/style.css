@@ -1,0 +1,1209 @@
+*{
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  /* -------------------------Navbar start----------------------- */
+  .navbar{
+    border-bottom: 1px solid white;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  .navbar .navbar-brand{
+    color:white;
+    font-size: 25px;
+    padding-left: 20%;
+    font-weight: 600;
+  }
+  .navbar ul{
+    margin-left: 10%;
+  }
+  .navbar ul li{
+    margin-left: 3%;
+  }
+  .navbar li a{
+    color:white;
+    font-size: 15px;
+    font-weight: 800;
+  }
+ 
+  
+  .navbar .cbtn{
+    margin-right: 10%;
+    font-size: 20px;
+    width: 200px;
+    font-weight: 800;
+    color: white;
+  }
+
+    /* -------------------------Navbar end----------------------- */
+    
+
+
+  /* ------------------------- Home start ------------------------------------------------ */
+
+
+  .home{
+    background-image:linear-gradient(45deg, rgba(87, 80, 80, 0.795) 70%, rgba(73, 70, 70, 0.849)), url("../images/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;      
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .htext p{
+   color:white;
+   font-size: 15px;
+   font-weight: 600;
+ }
+ .htext h1{
+   color:white;
+   font-size: 70px;
+   font-weight: 200;
+ }
+ .htext .vbtn{
+     background-color: rgb(105, 105, 190);
+     width: 75px;
+     height: 75px;
+     border-radius: 50px;
+     color: white;
+ }
+
+   /* ------------------------- Home end ------------------------------------------------ */
+
+  /* ------------------------- About start ------------------------------------------------ */
+
+ .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .about .aleft{
+    padding-left: 20%;
+  }
+  .about .aleft h6{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .about .aleft h4{
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .about .aleft p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .about .aleft .abtn{
+    font-size: 20px;
+    font-weight: 500;
+    width: 40%;
+  }
+  .about .aright .abg{
+    margin-top: 20px;
+    background-image: linear-gradient(to left,rgb(222, 238, 238),rgb(218, 232, 238));        
+    width: 50%;
+    height: 50%;
+    transform: rotate(-30deg);
+    position: relative;
+    z-index: -1;
+  }
+  .about .aright .aimg1{
+    width: 25%;
+    height: 60%;
+    background-image: url(../images/a1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -30%;
+  }
+  .about .aright .aimg2{
+    width: 30%;
+    height: 60%;
+    background-image: url(../images/a2.jpg);
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    margin-top: -10%;
+    margin-left: 20%;
+    position: relative;
+    z-index: -1;
+  }
+  
+  /* ------------------------- About end ------------------------------------------------ */
+
+  /* ------------------------- Clients start ------------------------------------------------ */
+
+  .clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12%;
+
+  }
+  .client h6{
+    color: gray;
+    font-size: 12px;
+  }
+  .client img{
+    width: 80%;
+    height: 80%;
+    padding-left: 30%;
+
+  }
+  /* ------------------------- Clients end ------------------------------------------------ */
+
+
+
+  /* ------------------------- Services start ------------------------------------------------ */
+
+  .services .sright{
+    padding-right: 18%;
+  }
+  .services .sright h6{
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(2, 248, 248);
+  }
+  .services .sright h4{
+    font-size: 22px;
+    font-weight: 900;
+  }
+  .services .sright p{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+  }
+  .services .sright .sbtn{
+    font-size: 20px;
+    font-weight: 500;
+    width: 40%;
+  }
+
+  .services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services .sleft{
+    padding-left: 15%;
+    margin-top: -5%;
+  }
+  .services .sleft .sbg{
+    background-color: rgb(223, 251, 255);
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: relative;
+    z-index: -1;
+    opacity: 0.6;
+
+  }
+  .services .sleft .scard1{
+    width:60%;
+    height: 20%;
+    margin-top: -10%;
+    margin-left: 10%;
+    box-shadow: 1px 12px 20px rgb(214, 213, 213) ,-2px -2px 20px lightgray;
+  }
+  .services .sleft .scard2{
+    width:60%;
+    height: 20%;
+    margin-left: 20%;
+    box-shadow: 1px 12px 20px rgb(214, 213, 213) ,-2px -10px 30px lightgray;
+
+  }
+  .services .sleft .scard3{
+    width:60%;
+    height: 20%;
+    margin-left: 10%;
+    box-shadow: 1px 12px 20px rgb(214, 213, 213) ,-2px -10px 30px lightgray;
+
+  }
+  .services .sleft .sbg2{
+    background-color: rgb(223, 251, 255);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    float: right;
+    margin-top: -20%;
+    position: relative;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  .services .sleft .scard1 h6{
+    color: #29afc7;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .services .sleft .scard1 h5{
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .services .sleft .scard2 h6{
+    color: rgb(252, 74, 74);
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .services .sleft .scard2 h5{
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .services .sleft .scard3 h6{
+    color: rgb(24, 240, 222);
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .services .sleft .scard3 h5{
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  /* ------------------------- Services end ------------------------------------------------ */
+
+
+
+    /* ------------------------- Projects start ------------------------------------------------ */
+
+  .projects .proleft{
+    text-align: center;
+   }
+    .projects .proleft h6{
+      font-size: 12px;       
+    }
+    .projects .proleft h3{
+      font-size: 30px; 
+      font-weight: 600;      
+    }
+    /* .projects .proright{
+      padding-left: 2%;     
+    } */
+
+    .projectimg {
+      padding-left: 25%;
+      padding-right: 25%;
+    }
+     .projectimg .proleft1{
+        background-image: linear-gradient(to top , rgb(35, 132, 223), rgba(76, 102, 252, 0.774) 60%) ;        
+        height: 500px;
+      
+      }
+     .projectimg .proleft1 h5{
+        color: white;
+        padding-left: 10%;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: -50%;
+
+
+      }
+      .projectimg .proleft1 h6{
+        color: white;
+        font-size: 14px;
+        font-weight: 200;
+        padding-left: 10%;
+
+      }
+      .projectimg .proleft1 i{
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        padding-left: 10%;
+
+      }
+     .projectimg .proright1{
+       background-image: linear-gradient(to top ,rgb(106, 106, 245),rgb(64, 45, 233));
+       margin-left: 15px;
+       height: 500px;
+     }
+     .projectimg .proleft1 .procard{
+       height: 300px;
+       width: 50%;
+       background-color:white;
+       box-shadow: 5px 2px 5px lightgray,-5px -2px 5px lightgray;
+       border-radius: 20px;
+       position: relative;
+       left: 25%;
+       top: -40%;
+     }
+     .projectimg .proleft1 .proc1{
+       width: 150px;
+       height: 150px;
+       background-image: linear-gradient(rgb(148, 210, 221),rgb(42, 143, 161));
+       position: relative;
+       border-radius: 100px;
+       top: 30%;
+       left: 40%;
+     }
+     .projectimg .proright1 .proc2{
+       width: 150px;
+       height: 150px;
+       background-image: linear-gradient(rgb(143, 124, 252),rgb(16, 92, 206));
+       position: relative;
+       border-radius: 100px;
+       left: 25%;
+     }
+     .projectimg .proright1 .procard2{
+       height: 250px;
+       width: 80%;
+       margin: 20%;
+       position: relative;
+       top: -40%;
+       left:10%;
+       background-image: url("../images/card2.jpg");
+       transform: rotate(10deg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       }
+       .projectimg .proright1 h5{
+        color: white;
+        padding-left: 10%;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 5%;
+
+
+      }
+      .projectimg .proright1 h6{
+        color: white;
+        font-size: 14px;
+        font-weight: 200;
+        padding-left: 10%;
+
+      }
+      .projectimg .proright1 i{
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        padding-left: 10%;
+
+      }
+      .projectimg .proleft2{
+        background-image: linear-gradient(to top , rgb(247, 192, 111), rgb(243, 170, 60)) ;        
+        height: 500px;
+      
+      }
+      .projectimg .proright2{
+       background-image: linear-gradient(to top ,rgba(179, 57, 19, 0.479),rgba(236, 93, 27, 0.719));
+       margin-left: 15px;
+       height: 500px;
+     }
+     .projectimg .proright2 .proc4{
+       width: 150px;
+       height: 150px;
+       background-image: linear-gradient(rgb(247, 106, 88),rgb(236, 103, 103));
+       position: relative;
+       border-radius: 100px;
+       left: 10%;
+       top: -5%;
+     }
+     .projectimg .proleft2 .proc3{
+       width: 150px;
+       height: 150px;
+       background-image: linear-gradient(rgb(243, 160, 51),rgb(240, 211, 131));
+       position: relative;
+       border-radius: 100px;
+       left: 65%;
+       top: -10%;
+     }
+     .projectimg .proleft2 h5{
+        color: white;
+        padding-left: 10%;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 5%;
+
+
+      }
+      .projectimg .proleft2 h6{
+        color: white;
+        font-size: 14px;
+        font-weight: 200;
+        padding-left: 10%;
+
+      }
+      .projectimg .proleft2 i{
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        padding-left: 10%;
+
+      }
+      .projectimg .proright2 h5{
+        color: white;
+        padding-left: 10%;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 10%;
+
+
+      }
+      .projectimg .proright2 h6{
+        color: white;
+        font-size: 14px;
+        font-weight: 200;
+        padding-left: 10%;
+
+      }
+      .projectimg .proright2 i{
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        padding-left: 10%;
+
+      }
+      .projectimg .proright2 .proright2img{        
+        background-image: url(../images/pro2.png);
+        width: 80%;
+        height: 65%;
+        position: relative;
+        top: -32%;
+        left: 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .projectimg .proleft2 .procard2{
+       height: 150px;
+       width: 50%;
+       margin: 10%;
+       position: relative;
+       top: -40%;
+       left: 40%;
+       background-image: url("../images/card2.jpg");
+       transform: rotate(30deg);
+       opacity: 0.7;
+
+       }
+      .projectimg .proleft2 .procard3{
+       height: 150px;
+       width: 50%;
+       margin: 10%;
+       position: relative;
+       top: -80%;
+       background-image: url("../images/card2.jpg");
+       transform: rotate(30deg);
+       opacity: 0.7;
+
+       }
+       .projectimg .proleft2 .procard4{
+       height: 150px;
+       width: 50%;
+       margin: 10%;
+       position: relative;
+       top: -80%;
+       background-image: url("../images/card2.jpg");
+       transform: rotate(30deg);
+       opacity: 0.7;
+
+       }
+       .projectimg .proleft2 .procard5{
+       height: 150px;
+       width: 40%;
+       margin: 10%;
+       position: relative;
+       top: -130%;
+       left: 50%;
+       background-image: url("../images/card2.jpg");
+       transform: rotate(30deg);
+       opacity: 0.7;
+       }
+
+  /* ------------------------- Projects end ------------------------------------------------ */
+
+
+
+  /* ------------------------- Social start ------------------------------------------------ */
+
+       .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(245, 245, 245);
+        margin-left: 15%;
+        margin-right: 15%;
+  
+      }
+      .social h4{
+        color: rgb(26, 24, 24);
+        margin-top: -8%;
+        font-size: 25px;
+        font-weight: 600;
+        
+      }
+      .social .s1{
+       width: 50px;
+       height: 50px;
+       background-image: url(../images/pintrest.png);
+       background-size: cover;     
+       border-radius: 15px;
+       box-shadow: 5px 5px 5px gray,-5px -5px 5px gray;
+  
+      }
+      .social .s5{
+       width: 50px;
+       height: 50px;
+       background-image: url(../images/pintrest.png);
+       background-size: cover;     
+       border-radius: 15px;
+       box-shadow: 5px 5px 5px gray,-5px -5px 5px gray;
+       margin-top: -5%;
+  
+      }
+      .social .s2{
+       width: 50px;
+       height: 50px;
+       background-image: url(../images/slack.png);
+       background-size: cover;
+       margin-left: -25%;
+       border-radius: 15px;
+       box-shadow: 5px 5px 5px gray,-5px -5px 5px gray;
+      }
+      .social .s6{
+       width: 50px;
+       height: 50px;
+       background-image: url(../images/slack.png);
+       background-size: cover;
+       margin-left: -25%;
+       border-radius: 15px;
+       box-shadow: 5px 5px 5px gray,-5px -5px 5px gray;
+      }
+      .social .s3{
+       width: 50px;
+       height: 50px;
+       background-image: url(../images/slack.png);
+       background-size: cover;
+       border-radius: 15px;
+       box-shadow: 5px 5px 5px gray,-5px -5px 5px gray;
+       margin-left: 70%;
+       margin-top: -20%;
+      }
+      
+      .social .s4{
+       width: 60px;
+       height: 50px;
+       background-image: url(../images/shopy.png);
+       background-size: cover;
+       border-radius: 15px;
+        margin-left: 100%;
+        box-shadow: 5px 5px 5px gray,-5px -5px 5px gray;
+  
+      }
+      .social .s8{
+       width: 50px;
+       height: 50px;
+       background-image: url(../images/slack.png);
+       background-size: cover;
+       border-radius: 15px;
+        margin-left: 80%;
+        margin-top: 8%;
+        box-shadow: 5px 5px 5px gray,-5px -5px 5px gray;
+  
+      }
+      .social .s7{
+       width: 50px;
+       height: 50px;
+       background-image: url(../images/slack.png);
+       background-size: cover;
+       border-radius: 15px;
+        margin-left: 120%;
+        margin-top: -40%;
+        box-shadow: 5px 5px 5px gray,-5px -5px 5px gray;
+  
+      }
+      .social .s9{
+       width: 50px;
+       height: 50px;
+       border-radius: 15px;
+        margin-left: 100%;
+        background-image: url(../images/slack.png);
+       background-size: cover;
+        box-shadow: 5px 5px 5px gray,-5px -5px 5px gray;
+  
+      }
+  
+
+/* ------------------------- Social end ------------------------------------------------ */
+
+
+
+/* ------------------------- Progress start ------------------------------------------------ */
+
+      .progress{
+        padding: 5%;
+        padding-left: 20%;
+        background-color: white;
+        height: 300px;
+      }
+      .progress .proleft h6{
+       font-size: 12px;
+      }
+      .progress .proleft h4{
+       font-size: 28px;
+       font-weight: 600;
+      }
+   
+      .progress .proright p{
+        font-size: 13px;
+        color: gray;
+      }
+      .progress .proright button{
+        font-size: 18px;
+        font-weight: 900;
+        margin-left: -15px;
+  
+      }
+      .progress .proright i{
+        font-size: 15px;
+      }
+  
+
+  /* ------------------------- Progress end ------------------------------------------------ */
+
+
+  /* ------------------------- Business start ------------------------------------------------ */
+
+      .buscard{
+       padding-left: 17%;
+  
+      }
+      .buscard .bus1{
+        margin: 10px;
+        box-shadow: 1px 1px 20px gray,-1px -1px 20px gray;
+      } 
+      .buscard .bus1 h4{
+        color: blue;
+        padding: 5%;
+      } 
+      .buscard .bus1 p{
+        color: gray;
+        padding: 3%;
+  
+      } 
+      .buscard .bus1 .btn{
+        color: black;
+        padding: 5%;
+        font-size: 20px;
+        font-weight: 600;
+      } 
+      .buscard .bus2{
+        margin: 10px;
+        box-shadow: 1px 1px 20px gray,-1px -1px 20px gray;
+  
+      } 
+      .buscard .bus2 h4{
+        color: rgb(250, 52, 17);
+        padding: 5%;
+      } 
+      .buscard .bus2 p{
+        color: gray;
+        padding: 3%;
+      } 
+      .buscard .bus2 .btn{
+        color: black;
+        padding: 5%;
+        font-size: 20px;
+        font-weight: 600;
+      } 
+      .buscard .bus3{
+        margin: 10px;
+        box-shadow: 1px 1px 20px gray,-1px -1px 20px gray;
+  
+  
+      } 
+      .buscard .bus3 h4{
+        color: rgb(10, 245, 233);
+        padding: 5%;
+      } 
+      .buscard .bus3 p{
+        color: gray;
+        padding: 3%;
+      } 
+      .buscard .bus3 .btn{
+        color: black;
+        padding: 5%;
+        font-size: 20px;
+        font-weight: 600;
+      } 
+      .c1{
+        width: 15px;
+        height: 15px;
+        border-radius: 50px;
+        background-color: rgb(110, 110, 110);
+        display: flex;
+        justify-content: center;
+        margin-left: 5px;
+      }
+  
+  /* ------------------------- Business end ------------------------------------------------ */
+
+
+/* ------------------------- Procedure start ------------------------------------------------ */
+
+      .procedures{
+        display: flex;
+        justify-content: center;
+      }
+      .procedures .title{
+       font-size: 10px;
+       color: blue;
+       font-weight: 600;
+      }
+      .procedures .title1{
+       font-size: 25px;
+      
+       font-weight: 600;
+      }
+
+/* ------------------------- Procedure end ------------------------------------------------ */
+
+
+
+/* ------------------------- Process start ------------------------------------------------ */
+
+      .process .row{
+        background-color: rgb(53, 56, 92);
+        margin-left: 10%;
+        margin-right: 10%;
+        box-shadow: 5px 5px 20px gray,-5px -5px 20px gray;
+      }
+      .process .col{
+        border-right: 1px solid gray;
+        padding: 20px;
+      }
+      .process .col span {
+       display: flex;
+       justify-content: center; 
+       padding: 10px; 
+       font-size: 50px;   
+       color: rgb(28, 215, 240);  
+      }
+      .process .col h5{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        
+      }
+      .process .col p{
+        color: gray;
+        font-size: 10px;
+        font-weight: 600;
+        padding: 18px;
+        padding-left: 30px;
+       
+      }
+      .process .col .newbtn{
+        background-color: blue;
+        border: none;
+        font-size: 12px;
+        margin-left: 10px;
+        color: white;
+        font-weight: 600;
+      }
+
+/* ------------------------- Process end------------------------------------------------ */
+
+
+
+
+/* ------------------------- Client review start ------------------------------------------------ */
+
+      .clientcard{
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-top: 5%;
+
+      }
+      .clientcard .card{ 
+       
+        margin-left : 15%;
+        margin-right: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+      }
+      .clientcard .card p{ 
+       
+      color: gray;
+      font-size: 15px;
+     }
+     .clientcard .card h4{ 
+       
+       color: gray;
+       font-size: 12px;
+      }
+      .clientcard .card .img1{ 
+        background-image: url("../images/c1.jpg");
+        background-size: cover;
+        width: 75px;
+        height: 75px;
+        border-radius: 100px;
+        box-shadow: 2px 15px 20px lightgray;
+
+     }
+     .clientcard .prevbtn{
+      
+       height: 40px;
+       width: 40px;
+       margin-top: 10%;
+       box-shadow: 2px 2px 5px gray,-2px -2px 5px gray;
+     }
+     .clientcard .nextbtn{
+      
+      height: 40px;
+      width: 40px;
+      margin-top: 10%;
+      box-shadow: 2px 2px 5px gray,-2px -2px 5px gray;
+    }
+
+/* ------------------------- Client review end ------------------------------------------------ */
+
+
+/* ------------------------- started contact start ------------------------------------------------ */
+
+    .started {
+      margin-top: 40px;
+    }
+    .started h4{
+      font-size: 25px;
+      font-weight: 400;
+    }
+    .started h6{
+      font-size: 14px;
+      font-weight: 600;
+      color: gray;
+    }
+
+
+/* ------------------------- started contact end ------------------------------------------------ */
+
+
+/* ------------------------- Footer start ------------------------------------------------ */
+
+    .footer{
+      background-color: black;
+     }
+     .footer .ftitle{
+      color: white;
+      font-size: 12px;
+      font-weight: 600;
+     }
+     .footer .col{
+       margin-left: 3%;
+     }
+     .footer li{
+        list-style-type: none;
+     }
+     .footer li a{
+       text-decoration: none;
+       color: gray;
+       font-size: 13px;
+       font-weight: 600;
+     }
+     .footer .fbtn{
+      width: 50px;
+      height: 25px;
+       font-size: 12px;
+       margin-left: 10px;
+       border: none;
+       font-weight: 600;
+     }
+     .footer .fcol1{
+       padding-left: 20px;
+      
+     }
+     .footer .fcol1 h6{
+       color:white;
+       font-size: 12px;
+
+     }
+     .footer .fcol1 span i{
+       color:white;
+       width: 25px;
+       height: 25px;
+       font-size: 18px;
+       padding: 5px;
+       border-radius: 10px;
+       background-color: gray;
+       text-align: center;
+       margin: 1%;
+
+     }
+     
+     .footer .fcol5 h6{
+       color: white;
+       font-size: 13px;
+       font-weight: 600;
+
+     }
+     .footer .email{
+       background-color: honeydew;
+       border: none;
+       font-style: italic;
+       font-size: 14px;
+       font-weight: 600;
+     }
+     .footer .emailbtn{
+       background-color: green;
+       color: white;
+     }
+
+     .footer .fblink a{
+       text-decoration: none;
+       padding: 10px;
+       color: gray;
+       font-size: 14px;
+       font-weight: 800;
+     }
+
+
+/* ------------------------- Footer end ------------------------------------------------ */
+
+
+/* -------------------------Media start for mobaile ------------------------------------------------ */
+
+@media screen and (max-width:667px){
+  .navbar{
+    width: 100%;
+  }
+  .navbar .navbar-brand{
+   margin-left: -20%;
+  }
+  .navbar ul{
+    margin-left: -10%;
+    width: 100%;
+
+  }
+  .navbar ul li{
+   border-bottom: 1px solid white;
+   padding: 5px;
+  }
+  .navbar ul li:hover{
+    background-color: white;
+   }
+  .navbar .navicon{
+    width: 100%;
+    display: inline-block;
+  }
+  .navbar .navicon li {
+    width: 30%;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    margin-left: 10%;
+    border-right: 1px solid white;
+  }
+  .navbar .cbtn{
+  width: 90%;
+  }
+ .about .aleft{
+   margin-left: -10%;
+
+ }
+ .about .aleft .abtn{
+  width: 100%;
+}
+.about .aright{
+  margin-left: -100%;
+  z-index: -100;
+  opacity: 0.5;
+}
+.about .aright .aimg1{
+  width: 60%;
+  margin-top: -50%;
+}
+.about .aright .aimg2{
+  width: 60%;
+  margin-top: -50%;
+  margin-left: 40%;
+}
+.about .aright .abg{
+  width: 100%;
+}
+
+.services .row{
+  width: 100%;
+}
+.services .sleft .card{
+  width: 120%;
+  margin-left: -10%;
+}
+.services .sleft .scard2{
+  width: 110%;
+  margin-left: -5%;
+}
+.services .sleft .scard3{
+  width: 110%;
+  margin-left: -10%;
+}
+.services .sright{
+  width: 100%;
+  margin-left: 5%;
+}
+.services .sright .sbtn{
+  width: 100%;
+}
+.projectimg .row{
+  margin-left: -50%;
+  width: 180%;
+}
+.projectimg .proright1 .procard2{
+  margin: 18%;
+}
+.social .s7{
+  margin: -5%;
+}
+.progress{
+  margin-left: -15%;
+}
+.carousel .buscard .row{
+  width: 100%;
+  margin-left: -15%;
+}
+.client .clientcard .carousel{
+  width: 170%;
+  margin-left: -40%;
+}
+.client .prevbtn{
+  margin-top: 50%;
+}
+.client .nextbtn{
+  margin-top: 50%;
+}
+.footer .col{
+  width: 100%;
+  margin: 10px;
+}
+}
+/* ------------------------- Media end for mobaile ------------------------------------------------ */
+
+/* -------------------------Media start for tabate ------------------------------------------------ */
+
+@media screen and (min-width:668px) and (max-width:1024px){
+  .navbar{
+    width: 100%;
+  }
+  .navbar .navbar-brand{
+   margin-left: -10%;
+  }
+  .navbar ul{
+    margin-left: -5%;
+    width: 100%;
+
+  }
+  .navbar ul li{
+   border-bottom: 1px solid white;
+   padding: 5px;
+  }
+  .navbar ul li:hover{
+    background-color: white;
+   }
+  .navbar .navicon{
+    width: 100%;
+    display: inline-block;
+  }
+  .navbar .navicon li {
+    width: 30%;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    margin-left: 10%;
+    border-right: 1px solid white;
+  }
+  .navbar .cbtn{
+  width: 90%;
+  }
+ .about .aleft{
+   margin-left: -10%;
+
+ }
+ .about .aleft .abtn{
+  width: 100%;
+}
+.about .aright{
+  margin-left: -100%;
+  z-index: -100;
+  opacity: 0.5;
+  margin-top: 20%;
+}
+.about .aright .aimg1{
+  width: 60%;
+  margin-left: 10%;
+}
+.about .aright .aimg2{
+  width: 60%;
+  margin-left: 40%;
+}
+.about .aright .abg{
+  width: 100%;
+  margin-left: 10%;
+}
+
+.services .row{
+  width: 100%;
+}
+.services .sleft .card{
+  width: 200%;
+}
+.services .sleft .scard2{
+  width: 200%;
+}
+.services .sleft .scard3{
+  width: 200%;
+}
+.services .sright{
+  width: 100%;
+  margin-left: 5%;
+}
+.services .sright .sbtn{
+  width: 100%;
+}
+/* .projectimg .row{
+  width: 170%;
+  margin-left: -40%;
+}
+.projectimg .proleft1 h5{
+  background-color: red;
+} */
+
+.social{
+  width: 100%;
+  margin-left: -1%;
+}
+.social .s7{
+  margin: -3%;
+}
+.progress{
+  margin-left: -15%;
+}
+.carousel .buscard .row{
+  width: 100%;
+  margin-left: -15%;
+}
+.client .clientcard .carousel{
+  width: 160%;
+  margin-left: -30%;
+}
+
+.footer .col{
+  width: 100%;
+  margin: 30px;
+  width:40%;
+}
+.footer .fcol5{
+  width: 90%;
+}
+}
+/* ------------------------- Media end for tablet ------------------------------------------------ */
+
